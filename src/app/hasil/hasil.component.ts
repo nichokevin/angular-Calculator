@@ -11,5 +11,6 @@ export class HasilComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  hasil: number;
+  
 }
