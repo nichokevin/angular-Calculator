@@ -55,7 +55,6 @@ getAnswer() {
       this.subText = this.calculationString;
       if (this.mainText.length > 9) {
         this.mainText = 'ERROR';
-        this.subText = 'range terlalu besar';
       }
     } else if (this.operator === '-') {
       this.subText = this.mainText;
@@ -67,7 +66,6 @@ getAnswer() {
       this.subText = this.calculationString;
       if (this.mainText.length > 9) {
         this.mainText = 'ERROR';
-        this.subText = 'range terlalu besar';
       }
     } else {
       this.subText = 'ERROR';
